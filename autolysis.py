@@ -13,7 +13,7 @@ import os
 
 # Constants
 API_URL = "https://aiproxy.sanand.workers.dev/openai/v1/chat/completions"
-AIPROXY_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDE2OTBAZHMuc3R1ZHkuaWl0bS5hYy5pbiJ9.YjkmCVVSNRY5itgB7O0vCD0ql3w3VFo6qi-ovKtBO5E"
+AIPROXY_TOKEN = os.getenv("AIPROXY_TOKEN")
 
 class DatasetAnalyzer:
     """Class to handle dataset loading, analysis, and visualization."""
