@@ -1,3 +1,20 @@
+
+# /// script
+# requires-python = ">=3.11"
+# dependencies = [
+#   "httpx",
+#   "pandas",
+#   "numpy",
+#   "matplotlib",
+#   "seaborn",
+#   "scikit-learn",
+#   "chardet",
+#   "google-colab",
+#   "uv"
+# ]
+# ///
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
